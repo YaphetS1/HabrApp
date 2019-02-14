@@ -6,10 +6,9 @@ inhibit_all_warnings!
 target 'NewsApp' do
   
 	pod 'SnapKit', '~> 4.0.0'
-	pod 'MBProgressHUD', '~> 1.1.0'
 	pod 'TPKeyboardAvoiding'
-	pod 'SwiftKeychainWrapper'
 	pod 'SWXMLHash', '~> 4.7.0'
 	pod 'ReachabilitySwift'
-
+	pod 'RxSwift', '~> 4.3.0'
+	pod 'RxCocoa', '~> 4.3.0'
 end

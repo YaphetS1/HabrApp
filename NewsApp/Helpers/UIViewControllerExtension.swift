@@ -2,11 +2,10 @@
 //  UIViewControllerExtension.swift
 //
 //  Created by Dmitry Marinin on 2019-02-14.
-//  Copyright © 2019 DM. All rights reserved. on 14/02/2019.
+//  Copyright © 2019 DM. All rights reserved.
 //
 
 import UIKit
-import MBProgressHUD
 
 protocol StoryboardInstantiable: class {
 	static var storyboardIdentifier: String { get }
@@ -14,14 +13,6 @@ protocol StoryboardInstantiable: class {
 }
 
 extension UIViewController {
-	
-	func showHUD() {
-		MBProgressHUD.showAdded(to: view, animated: true)
-	}
-	
-	func hideHUD() {
-		MBProgressHUD.hide(for: view, animated: true)
-	}
 	
 	func showErrorAlert(message: String) {
 		let alert = AlertGenerate.alert(title: "Error", message: message, controller: self, buttons: nil, completion: nil)
