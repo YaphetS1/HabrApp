@@ -132,6 +132,7 @@
 				DD4E3A9F22046D0C00B54DFD /* Helpers */,
 				DD37C20222045702001D4DDE /* Resources */,
 				35F20B4FEF3B4A427EEBA802 /* AppDelegate.swift */,
+				DD37C20722045773001D4DDE /* Main.storyboard */,
 				35F20720D7EDF87F8915A7A1 /* Constants.swift */,
 			);
 			path = NewsApp;
@@ -151,7 +152,6 @@
 			children = (
 				DDCE739B2209CC37008B182C /* Cells */,
 				DDCE73B22209F845008B182C /* Controllers */,
-				DDCE73B52209F886008B182C /* Storyboards */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -271,14 +271,6 @@
 				DDCE73B32209F850008B182C /* BaseContainerViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		DDCE73B52209F886008B182C /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				DD37C20722045773001D4DDE /* Main.storyboard */,
-			);
-			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

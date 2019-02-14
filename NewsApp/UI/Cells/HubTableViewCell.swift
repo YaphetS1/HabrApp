@@ -12,8 +12,12 @@ final class HubTableViewCell: UITableViewCell {
 	@IBOutlet weak var hubTitleLabel: UILabel!
     @IBOutlet weak var hubDateLabel: UILabel!
 	@IBOutlet weak var hubTextLabel: UILabel!
+
+	var linkHubViewModel: HubViewModel!
 	
 	func setup(with viewModel: HubViewModel) {
+		self.linkHubViewModel = viewModel
+
 		hubTitleLabel.text = viewModel.title
 		hubDateLabel.text = viewModel.date
 		hubTextLabel.text = viewModel.text

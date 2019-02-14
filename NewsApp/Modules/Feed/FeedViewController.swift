@@ -31,6 +31,7 @@ class FeedViewController: UIViewController, ReactiveDisposable {
                 .bind(to: self.tableView.rx.items(
                         cellIdentifier: HubTableViewCell.DefaultReuseIdentifier,
                         cellType: HubTableViewCell.self)) { (row, hubViewModel: HubViewModel, cell: HubTableViewCell) in
+                    cell.selectionStyle = .none
                     cell.setup(with: hubViewModel)
                 }
                 .disposed(by: self.disposeBag)
@@ -49,6 +50,15 @@ class FeedViewController: UIViewController, ReactiveDisposable {
                 .subscribe { [weak self] _ in
                     self!.refreshControl.endRefreshing()
                 }.disposed(by: self.disposeBag)
+
+        self.tableView.rx.itemSelected
+                .map { [weak self] (indexPath: IndexPath) -> HubTableViewCell in
+                    return self?.tableView.cellForRow(at: indexPath) as! HubTableViewCell
+                }
+                .subscribe(onNext: { (cell: HubTableViewCell) in
+                    print(#function)
+                })
+                .disposed(by: disposeBag)
     }
 
     fileprivate func setupTableView() {
