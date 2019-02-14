@@ -8,6 +8,8 @@
 import Foundation
 
 public enum Constants {
+	static let baseURL = "https://habr.com/ru/rss/hubs/"
+
 	static let validEmail = "hello@test.com"
 	static let validPassword = "12345"
 }

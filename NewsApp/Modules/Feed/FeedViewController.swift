@@ -28,11 +28,10 @@ class FeedViewController: UIViewController, ReactiveDisposable {
     private func setupBindings() {
 
        self.viewModel.hubs
-               .debug()
                 .bind(to: self.tableView.rx.items(
                         cellIdentifier: HubTableViewCell.DefaultReuseIdentifier,
-                        cellType: HubTableViewCell.self)) { (row, hubEntity: HubEntity, cell: HubTableViewCell) in
-                    cell.setup(with: HubViewModel(entity: hubEntity))
+                        cellType: HubTableViewCell.self)) { (row, hubViewModel: HubViewModel, cell: HubTableViewCell) in
+                    cell.setup(with: hubViewModel)
                 }
                 .disposed(by: self.disposeBag)
 

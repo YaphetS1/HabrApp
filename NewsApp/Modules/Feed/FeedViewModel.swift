@@ -14,16 +14,15 @@ final class FeedViewModel {
     let reloadTrigger: PublishSubject<Void> = PublishSubject()
 
 // Output
-    lazy private(set) var hubs: Observable<[HubEntity]> = self.setupHubs()
+    lazy private(set) var hubs: Observable<[HubViewModel]> = self.setupHubs()
 
 // MARK: - Reactive Setup
 
-    fileprivate func setupHubs() -> Observable<[HubEntity]> {
+    fileprivate func setupHubs() -> Observable<[HubViewModel]> {
         return self.reloadTrigger
                 .asObservable()
-                .debug()
-                .debounce(0.3, scheduler: MainScheduler.instance)
-                .flatMapLatest { [unowned self] (_) -> Observable<[HubEntity]> in
+                .observeOn(MainScheduler.instance)
+                .flatMapLatest { [unowned self] (_) -> Observable<[HubViewModel]> in
                     return self.provider.fetchHubs()
                             .catchErrorJustReturn([])
                 }

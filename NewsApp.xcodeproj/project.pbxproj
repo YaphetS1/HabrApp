@@ -23,7 +23,6 @@
 		DD4E3A93220460B100B54DFD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4E3A92220460B100B54DFD /* ProfileViewController.swift */; };
 		DD4E3A95220460C100B54DFD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4E3A94220460C100B54DFD /* FeedViewController.swift */; };
 		DD4E3A97220460D000B54DFD /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4E3A96220460D000B54DFD /* FavoritesViewController.swift */; };
-		DD4E3A9A2204677E00B54DFD /* HabrRSSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4E3A992204677E00B54DFD /* HabrRSSClient.swift */; };
 		DDA756032204778A0014CDCB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDA756012204778A0014CDCB /* Model.xcdatamodeld */; };
 		DDA7560D220479040014CDCB /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA7560C220479040014CDCB /* PersistenceManager.swift */; };
 		DDA7560F22047C280014CDCB /* FeedProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA7560E22047C270014CDCB /* FeedProvider.swift */; };
@@ -56,7 +55,6 @@
 		DD4E3A92220460B100B54DFD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DD4E3A94220460C100B54DFD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		DD4E3A96220460D000B54DFD /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
-		DD4E3A992204677E00B54DFD /* HabrRSSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabrRSSClient.swift; sourceTree = "<group>"; };
 		DDA756022204778A0014CDCB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		DDA7560C220479040014CDCB /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		DDA7560E22047C270014CDCB /* FeedProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedProvider.swift; sourceTree = "<group>"; };
@@ -223,21 +221,12 @@
 			isa = PBXGroup;
 			children = (
 				165804EA221463140040AAF1 /* Entities */,
-				DD4E3A9B22046B4500B54DFD /* Networking */,
 				DDA75600220477810014CDCB /* Persistence */,
 				DDCE73A02209D124008B182C /* ViewModels */,
 				DDA7560E22047C270014CDCB /* FeedProvider.swift */,
 				DDCE73B82209FC7C008B182C /* AuthProvider.swift */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		DD4E3A9B22046B4500B54DFD /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				DD4E3A992204677E00B54DFD /* HabrRSSClient.swift */,
-			);
-			path = Networking;
 			sourceTree = "<group>";
 		};
 		DD4E3A9F22046D0C00B54DFD /* Helpers */ = {
@@ -419,7 +408,6 @@
 				DD4E3A8F2204608400B54DFD /* ProfileContainerViewController.swift in Sources */,
 				165804EE221463140040AAF1 /* UserEntity.swift in Sources */,
 				DDA7560D220479040014CDCB /* PersistenceManager.swift in Sources */,
-				DD4E3A9A2204677E00B54DFD /* HabrRSSClient.swift in Sources */,
 				DD4E3A95220460C100B54DFD /* FeedViewController.swift in Sources */,
 				165804ED221463140040AAF1 /* HubEntity.swift in Sources */,
 				DD4E3A93220460B100B54DFD /* ProfileViewController.swift in Sources */,

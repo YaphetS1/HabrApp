@@ -18,6 +18,12 @@ final class HubTableViewCell: UITableViewCell {
 		hubDateLabel.text = viewModel.date
 		hubTextLabel.text = viewModel.text
 	}
+
+	override func awakeFromNib() {
+		super.awakeFromNib()
+	}
 }
 
 extension HubTableViewCell: ReusableView { }
+
+extension HubTableViewCell: NibLoadableView { }
