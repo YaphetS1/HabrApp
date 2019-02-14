@@ -47,6 +47,7 @@ class FeedViewController: UIViewController, ReactiveDisposable {
 
         // Bind view model albums to the refresh control
         self.viewModel.hubs
+                .observeOn(MainScheduler.instance)
                 .subscribe { [weak self] _ in
                     self!.refreshControl.endRefreshing()
                 }.disposed(by: self.disposeBag)

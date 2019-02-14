@@ -3,7 +3,7 @@ platform :ios, "10.0"
 use_frameworks!
 inhibit_all_warnings!
 
-target 'NewsApp' do
+target 'HabrRss' do
   
 	pod 'SnapKit', '~> 4.0.0'
 	pod 'TPKeyboardAvoiding'

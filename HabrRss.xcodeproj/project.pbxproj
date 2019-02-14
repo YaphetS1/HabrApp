@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		165804ED221463140040AAF1 /* HubEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165804EB221463140040AAF1 /* HubEntity.swift */; };
 		165804EE221463140040AAF1 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165804EC221463140040AAF1 /* UserEntity.swift */; };
+		1DACFE489E5A4D9BBEB8C9AD /* Pods_HabrRss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0F01A850B4676CDB1B24FA /* Pods_HabrRss.framework */; };
 		35F200C40B13EC6541E60BFC /* ReactiveTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F20D6EBD161890247D5A99 /* ReactiveTools.swift */; };
 		35F2030D6F734E0E9C6EBB80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F20B4FEF3B4A427EEBA802 /* AppDelegate.swift */; };
 		35F203D863A260E6E1688EFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F20720D7EDF87F8915A7A1 /* Constants.swift */; };
@@ -31,21 +32,23 @@
 		DDCE73A22209D136008B182C /* HubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE73A12209D136008B182C /* HubViewModel.swift */; };
 		DDCE73B42209F850008B182C /* BaseContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE73B32209F850008B182C /* BaseContainerViewController.swift */; };
 		DDCE73B92209FC7C008B182C /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE73B82209FC7C008B182C /* AuthProvider.swift */; };
-		E14A2FDD147636B942DEDCC4 /* Pods_NewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45DFD05A9F8EAC930178FBA /* Pods_NewsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		165804EB221463140040AAF1 /* HubEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubEntity.swift; sourceTree = "<group>"; };
 		165804EC221463140040AAF1 /* UserEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		16D4FD5162939D316026B744 /* Pods-NewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp.release.xcconfig"; sourceTree = "<group>"; };
+		33268DF7057F6E185E7CE523 /* Pods-HabrRss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabrRss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HabrRss/Pods-HabrRss.debug.xcconfig"; sourceTree = "<group>"; };
 		35F2000048D2D2FFF17D7C61 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		35F2064AB13292735BD91C85 /* FeedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		35F20720D7EDF87F8915A7A1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		35F20B2EDABEB928BF336BF3 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		35F20B4FEF3B4A427EEBA802 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35F20D6EBD161890247D5A99 /* ReactiveTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveTools.swift; sourceTree = "<group>"; };
+		6B3007C8D8A90C75618FFC83 /* Pods-HabrRss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabrRss.release.xcconfig"; path = "Pods/Target Support Files/Pods-HabrRss/Pods-HabrRss.release.xcconfig"; sourceTree = "<group>"; };
+		6F0F01A850B4676CDB1B24FA /* Pods_HabrRss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabrRss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC8985535208CBDFEEBA54F /* Pods-NewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp.debug.xcconfig"; sourceTree = "<group>"; };
-		DD37C1ED220456E1001D4DDE /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD37C1ED220456E1001D4DDE /* HabrRss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabrRss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD37C1F7220456E1001D4DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD37C1FA220456E1001D4DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD37C1FC220456E1001D4DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E14A2FDD147636B942DEDCC4 /* Pods_NewsApp.framework in Frameworks */,
+				1DACFE489E5A4D9BBEB8C9AD /* Pods_HabrRss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				E45DFD05A9F8EAC930178FBA /* Pods_NewsApp.framework */,
+				6F0F01A850B4676CDB1B24FA /* Pods_HabrRss.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,6 +104,8 @@
 			children = (
 				DBC8985535208CBDFEEBA54F /* Pods-NewsApp.debug.xcconfig */,
 				16D4FD5162939D316026B744 /* Pods-NewsApp.release.xcconfig */,
+				33268DF7057F6E185E7CE523 /* Pods-HabrRss.debug.xcconfig */,
+				6B3007C8D8A90C75618FFC83 /* Pods-HabrRss.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -107,7 +113,7 @@
 		DD37C1E4220456E1001D4DDE = {
 			isa = PBXGroup;
 			children = (
-				DD37C1EF220456E1001D4DDE /* NewsApp */,
+				DD37C1EF220456E1001D4DDE /* HabrRss */,
 				DD37C1EE220456E1001D4DDE /* Products */,
 				9C0661F1171F5333347FF93E /* Pods */,
 				34009F353782BC987D1780E2 /* Frameworks */,
@@ -117,12 +123,12 @@
 		DD37C1EE220456E1001D4DDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD37C1ED220456E1001D4DDE /* NewsApp.app */,
+				DD37C1ED220456E1001D4DDE /* HabrRss.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD37C1EF220456E1001D4DDE /* NewsApp */ = {
+		DD37C1EF220456E1001D4DDE /* HabrRss */ = {
 			isa = PBXGroup;
 			children = (
 				DD37C1FC220456E1001D4DDE /* Info.plist */,
@@ -135,7 +141,7 @@
 				DD37C20722045773001D4DDE /* Main.storyboard */,
 				35F20720D7EDF87F8915A7A1 /* Constants.swift */,
 			);
-			path = NewsApp;
+			path = HabrRss;
 			sourceTree = "<group>";
 		};
 		DD37C20222045702001D4DDE /* Resources */ = {
@@ -276,9 +282,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD37C1EC220456E1001D4DDE /* NewsApp */ = {
+		DD37C1EC220456E1001D4DDE /* HabrRss */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD37C1FF220456E1001D4DDE /* Build configuration list for PBXNativeTarget "NewsApp" */;
+			buildConfigurationList = DD37C1FF220456E1001D4DDE /* Build configuration list for PBXNativeTarget "HabrRss" */;
 			buildPhases = (
 				DBC8C02B5B058E6C7B5D6AE0 /* [CP] Check Pods Manifest.lock */,
 				DD37C1E9220456E1001D4DDE /* Sources */,
@@ -290,9 +296,9 @@
 			);
 			dependencies = (
 			);
-			name = NewsApp;
+			name = HabrRss;
 			productName = NewsApp;
-			productReference = DD37C1ED220456E1001D4DDE /* NewsApp.app */;
+			productReference = DD37C1ED220456E1001D4DDE /* HabrRss.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -310,7 +316,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD37C1E8220456E1001D4DDE /* Build configuration list for PBXProject "NewsApp" */;
+			buildConfigurationList = DD37C1E8220456E1001D4DDE /* Build configuration list for PBXProject "HabrRss" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -323,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD37C1EC220456E1001D4DDE /* NewsApp */,
+				DD37C1EC220456E1001D4DDE /* HabrRss */,
 			);
 		};
 /* End PBXProject section */
@@ -349,7 +355,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-HabrRss/Pods-HabrRss-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -368,7 +374,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HabrRss/Pods-HabrRss-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DBC8C02B5B058E6C7B5D6AE0 /* [CP] Check Pods Manifest.lock */ = {
@@ -382,7 +388,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NewsApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HabrRss-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -551,18 +557,19 @@
 		};
 		DD37C200220456E1001D4DDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBC8985535208CBDFEEBA54F /* Pods-NewsApp.debug.xcconfig */;
+			baseConfigurationReference = 33268DF7057F6E185E7CE523 /* Pods-HabrRss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9875ARB5R;
-				INFOPLIST_FILE = NewsApp/Info.plist;
+				INFOPLIST_FILE = HabrRss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.DM.HabrApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -570,18 +577,19 @@
 		};
 		DD37C201220456E1001D4DDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16D4FD5162939D316026B744 /* Pods-NewsApp.release.xcconfig */;
+			baseConfigurationReference = 6B3007C8D8A90C75618FFC83 /* Pods-HabrRss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9875ARB5R;
-				INFOPLIST_FILE = NewsApp/Info.plist;
+				INFOPLIST_FILE = HabrRss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.DM.HabrApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -590,7 +598,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD37C1E8220456E1001D4DDE /* Build configuration list for PBXProject "NewsApp" */ = {
+		DD37C1E8220456E1001D4DDE /* Build configuration list for PBXProject "HabrRss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD37C1FD220456E1001D4DDE /* Debug */,
@@ -599,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD37C1FF220456E1001D4DDE /* Build configuration list for PBXNativeTarget "NewsApp" */ = {
+		DD37C1FF220456E1001D4DDE /* Build configuration list for PBXNativeTarget "HabrRss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD37C200220456E1001D4DDE /* Debug */,
